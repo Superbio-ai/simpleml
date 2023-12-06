@@ -1,0 +1,4 @@
+# app requirements
+pandas
+scikit-learn
+numpy

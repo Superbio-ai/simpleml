@@ -1,0 +1,11 @@
+# server requirements
+flask
+flask_session
+flask_cors
+flask_restful
+flask_bcrypt
+gunicorn
+# app requirements
+pandas
+scikit-learn
+numpy
