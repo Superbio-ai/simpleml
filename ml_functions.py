@@ -52,6 +52,8 @@ def _get_model(problem_type: str, model_type: str):
             model = GradientBoostingClassifier()
         elif model_type == 'neural_network':
             model = MLPClassifier()
+    else:
+        print("error")
     return model
 
 
