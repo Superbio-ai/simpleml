@@ -12,7 +12,6 @@ from pandas import DataFrame
 import numpy as np
 import pandas as pd
 
-#####################
 
 def check_inputs(problem_type: str, model_type: str, predictors: list, target: str, train_test_ratio: float, missing_treatment: str, df: DataFrame):
     col_names = list(df.columns)
